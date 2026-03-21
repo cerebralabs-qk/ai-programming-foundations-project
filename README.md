@@ -63,3 +63,7 @@ Then: **Kernel → Restart & Run All**
 ## Bias and Data Quality
 
 Poor data cleaning can introduce bias in wine quality analysis in two ways: (1) removing outliers by deletion rather than clipping can disproportionately remove wines from underrepresented quality classes (scores 3 and 8), worsening class imbalance; (2) if missing values were imputed with column means, they would artificially compress variance in the most important features (alcohol, volatile acidity). This project uses clipping rather than deletion, and there are no missing values in this dataset.
+## Development Notes
+- Branch: development
+- Workflow tested and validated
+- All three figures generated successfully
